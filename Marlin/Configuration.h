@@ -144,7 +144,7 @@
  * Secondary Extruder steps per mm
  * (how to calibrate: https://toms3d.org/2014/04/06/3d-printing-guides-calibrating-your-extruder/)
  */
-#define E1_STEPS      400 // Stock extruder. If you have a Tevo Titan, try 400 then calibrate
+#define E1_STEPS      300 // Stock extruder. If you have a Tevo Titan, try 400 then calibrate
 // #define CHANGE_E1_DIRECTION   // If your secondary extruder is going backwards, enable this.
 
 /**

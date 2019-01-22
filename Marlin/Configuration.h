@@ -126,7 +126,7 @@
 /**
  * Enable this to turn on support for two extruders
  */
-//#define DUAL_EXTRUDER // If not single nozzle, primary nozzle plugged in to E0 port
+#define DUAL_EXTRUDER // If not single nozzle, primary nozzle plugged in to E0 port
                         // and secondary plugged in to E1 port.
 //#define SINGLENOZZLE  // Enable this if you are using a single mixing nozzle (requires DUAL_EXTRUDER)
 
@@ -137,15 +137,15 @@
  * The Y value is positive if the secondary nozzle is behind the primary and
  * negative if the secondary nozzle is in front of the primary.
  */
-#define EXTRUDER_E1_X 0
+#define EXTRUDER_E1_X 18
 #define EXTRUDER_E1_Y 0
 
 /** 
  * Secondary Extruder steps per mm
  * (how to calibrate: https://toms3d.org/2014/04/06/3d-printing-guides-calibrating-your-extruder/)
  */
-#define E1_STEPS      100 // Stock extruder. If you have a Tevo Titan, try 400 then calibrate
-//#define CHANGE_E1_DIRECTION   // If your secondary extruder is going backwards, enable this.
+#define E1_STEPS      400 // Stock extruder. If you have a Tevo Titan, try 400 then calibrate
+#define CHANGE_E1_DIRECTION   // If your secondary extruder is going backwards, enable this.
 
 /**
  * TEVO Tarantula Custom PID Settings - Stock Hotend
@@ -184,8 +184,8 @@
  *       CUSTOM_USER_MENUS for PETG to appear, along with PLA and ABS, under Custom Commands.
  *       PLA and ABS will appear under both Custom Command and Prepare.
  */
-#define Hot_PLA     215
-#define Bed_PLA      75
+#define Hot_PLA     200
+#define Bed_PLA      50
 
 #define Hot_ABS 		240
 #define Bed_ABS 		100

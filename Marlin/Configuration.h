@@ -126,7 +126,7 @@
 /**
  * Enable this to turn on support for two extruders
  */
-#define DUAL_EXTRUDER // If not single nozzle, primary nozzle plugged in to E0 port
+//#define DUAL_EXTRUDER // If not single nozzle, primary nozzle plugged in to E0 port
                         // and secondary plugged in to E1 port.
 //#define SINGLENOZZLE  // Enable this if you are using a single mixing nozzle (requires DUAL_EXTRUDER)
 
@@ -151,18 +151,18 @@
  * TEVO Tarantula Custom PID Settings - Stock Hotend
  */
 
-#define  hot_Kp 29.35
-#define  hot_Ki 3.85
-#define  hot_Kd 55.90
+#define  hot_Kp 20.21
+#define  hot_Ki 1.3
+#define  hot_Kd 78.65
 // FIND YOUR OWN: "M303 E0 C8 S200" to run autotune on the hotend at 200 degreesC for 8 cycles.
 // More info here: http://reprap.org/wiki/PID_Tuning
 
 /**
  * TEVO Tarantula Custom PID Settings - Stock Heatbed
  */
-#define  bed_Kp 195.71
-#define  bed_Ki 15.12
-#define  bed_Kd 633.28
+#define  bed_Kp 179.27
+#define  bed_Ki 12.8
+#define  bed_Kd 627.83
 // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 // More info here: http://reprap.org/wiki/PID_Tuning
 
